@@ -6,3 +6,6 @@
 # Maven / IDE build output (regenerate with mvn compile / mvn test)
 **/target/
 **/out/
+
+# Savegame
+savegame.properties
