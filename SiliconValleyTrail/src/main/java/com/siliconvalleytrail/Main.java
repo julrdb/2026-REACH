@@ -11,6 +11,7 @@ package com.siliconvalleytrail;
 public class Main {
 
     public static void main(String[] args) {
+        Env.init();
         Game game = new Game();
         game.start();
     }

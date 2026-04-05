@@ -35,6 +35,12 @@
             <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- Load optional .env next to pom.xml for local API keys (file is gitignored). -->
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -1,0 +1,4 @@
+# Local environment files (secrets). Never commit real keys.
+.env
+.env.local
+.env.*.local
