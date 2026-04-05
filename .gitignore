@@ -2,3 +2,7 @@
 .env
 .env.local
 .env.*.local
+
+# Maven / IDE build output (regenerate with mvn compile / mvn test)
+**/target/
+**/out/
