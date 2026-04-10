@@ -3,7 +3,7 @@ package com.siliconvalleytrail;
 /**
  * Weather.java — Stores the current weather and calculates its gameplay effects.
  *
- * WHY THIS EXISTS:
+ * WHY THIS:
  * We could just use raw numbers (an int for temperature, an int for a code)
  * everywhere. But that would mean scattering weather-effect calculations all over
  * the codebase. Instead, this class is the single place that knows:

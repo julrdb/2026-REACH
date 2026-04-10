@@ -15,6 +15,9 @@ import java.util.Properties;
  * file is plain text (key=value pairs), so you can open savegame.properties in any
  * editor and see exactly what was saved. This makes debugging much easier.
  *
+ * CAVEAT:
+ * SaveManager.java only creates one savegame.properties file, which is to say there's only one game slot for saving progress.
+ * 
  * Example savegame.properties contents:
  *   day=4
  *   cash=47500

@@ -29,8 +29,10 @@ public class GameState implements Serializable {
     // =====================================================================
     // GAME CONSTANTS — values that never change during play
     // Using static final means: belongs to the class (not an instance),
-    // and cannot be changed. Like a constant in math.
+    // and cannot be changed.
     // =====================================================================
+
+    
     public static final int STARTING_CASH    = 50_000;  // Underscores are legal in Java — makes large numbers readable
     public static final int STARTING_MORALE  = 100;
     public static final int STARTING_COFFEE  = 50;

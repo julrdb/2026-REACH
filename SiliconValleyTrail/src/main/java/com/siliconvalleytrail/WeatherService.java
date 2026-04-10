@@ -8,19 +8,13 @@ import java.net.URL;
 
 /**
  * WeatherService.java — Fetches real weather from the Open-Meteo API.
- *
- * WHY OPEN-METEO:
- * It's 100% free and requires NO API key — perfect for a take-home project
- * where you don't want to commit secrets to GitHub. Just pass lat/lon and get JSON.
- *
- * WHY TRY/CATCH:
+ 
  * Network calls can fail for many reasons (no wifi, API down, timeout).
  * If we let those failures crash the game, users would get a scary stack trace.
  * Instead, we "catch" any error and fall back to a mock weather object so the
  * game always continues. This is called "graceful degradation."
  *
- * This is also your first introduction to exception handling in Java —
- * a concept not yet covered in your CS111B course.
+ *
  */
 public class WeatherService {
 
